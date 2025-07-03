@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Project</title>
+  <link
+  rel="stylesheet"
+  href="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v4.7.2/mapbox-gl-geocoder.css"
+/>
+<script src="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v4.7.2/mapbox-gl-geocoder.min.js"></script><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>University of Glasgow Routing</title>
+  <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no" />
+  <link href="https://api.mapbox.com/mapbox-gl-js/v2.15.0/mapbox-gl.css" rel="stylesheet" />
+</head>
+<body>
+  <div id="controls">
+    <select id="mode">
+  <option value="5000">🗺️ Full Map</option>
+  <option value="5001">♿ Step Free</option>
+</select>
+    <input id="start" type="text" placeholder="Start location" />
+    <input id="end" type="text" placeholder="End location" />
+    <button id="routeBtn">🧍 Plan Route</button>
+  </div>
+  <div id="info"></div>
+  <div id="map"></div>
+</body>
+</html>
+<!-- partial -->
+  <script src='https://api.mapbox.com/mapbox-gl-js/v2.15.0/mapbox-gl.js'></script>
+<script src='https://api.mapbox.com/mapbox-gl-js/v2.15.0/mapbox-gl.css'></script><script  src="./script.js"></script>
+
+</body>
+</html>

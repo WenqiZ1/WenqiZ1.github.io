@@ -1,0 +1,22 @@
+
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>University of Glasgow Routing</title>
+  <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no" />
+  <link href="https://api.mapbox.com/mapbox-gl-js/v2.15.0/mapbox-gl.css" rel="stylesheet" />
+</head>
+<body>
+  <div id="controls">
+    <select id="mode">
+  <option value="5000">🗺️ Full Map</option>
+  <option value="5001">♿ Step Free</option>
+</select>
+    <input id="start" type="text" placeholder="Start location" />
+    <input id="end" type="text" placeholder="End location" />
+    <button id="routeBtn">🧍 Plan Route</button>
+  </div>
+  <div id="info"></div>
+  <div id="map"></div>
+</body>
+</html>
